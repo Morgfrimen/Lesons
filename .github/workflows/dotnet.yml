@@ -9,9 +9,9 @@ on:
 jobs:
     job1:
           build:
-              runs-on: windows-latest
+                runs-on: windows-latest
 
-              steps:
+                steps:
                   - uses: actions/checkout@v2
                   - name: Setup .NET
                     uses: actions/setup-dotnet@v1
