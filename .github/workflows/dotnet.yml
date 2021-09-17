@@ -7,27 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-    job1:
-      build:
-
-        runs-on: ubuntu-latest
-
-        steps:
-            - uses: actions/checkout@v2
-            - name: Setup .NET
-              uses: actions/setup-dotnet@v1
-              with:
-                dotnet-version: 6.0.x
-            - name: Restore dependencies1
-              run: dotnet restore
-            - name: Build1
-              run: dotnet build --no-restore
-            - name: Test1
-              run: dotnet test --no-build --verbosity normal
-            
-    job2:
-      build:
-
+    build:
         runs-on: windows-latest
 
         steps:
@@ -42,3 +22,4 @@ jobs:
               run: dotnet build --no-restore
             - name: Test2
               run: dotnet test --no-build --verbosity normal
+      
