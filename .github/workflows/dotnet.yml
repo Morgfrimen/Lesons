@@ -18,12 +18,13 @@ jobs:
             uses: actions/setup-dotnet@v1
             with:
               dotnet-version: 6.0.x
-          - name: Restore dependencies
+          - name: Restore dependencies1
             run: dotnet restore
-          - name: Build
+          - name: Build1
             run: dotnet build --no-restore
-          - name: Test
+          - name: Test1
             run: dotnet test --no-build --verbosity normal
+            
     job2:
       build:
 
@@ -35,9 +36,9 @@ jobs:
             uses: actions/setup-dotnet@v1
             with:
               dotnet-version: 6.0.x
-          - name: Restore dependencies
+          - name: Restore dependencies2
             run: dotnet restore
-          - name: Build
+          - name: Build2
             run: dotnet build --no-restore
-          - name: Test
+          - name: Test2
             run: dotnet test --no-build --verbosity normal
