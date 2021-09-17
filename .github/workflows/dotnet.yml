@@ -22,7 +22,7 @@ jobs:
            run: dotnet build --no-restore
          - name: Test2
            run: dotnet test --no-build --verbosity normal
-    build:
+    
          runs-on: ubuntu-latest
          steps:
          - uses: actions/checkout@v2
