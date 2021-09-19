@@ -1,10 +1,16 @@
-﻿namespace ConsoleApp1;
+﻿using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("UnitTest")]
+
+namespace ConsoleApp1;
+
+
 
 public class Program
 {
-    private static void Main(string[] args)
-    {
+	private static void Main(string[] args)
+	{
 
-    }
+	}
 
 }
