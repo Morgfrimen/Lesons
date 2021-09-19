@@ -55,8 +55,6 @@ namespace UnitTest
 			Assert.AreEqual(resultSum, assetsResult);
 
 			float resSum = calc.Sum<float>(5, 10);
-			float assetsResult1 = 0.5f;
-
 			Assert.AreEqual(resultSum, assetsResult,3);
 		}
 	}
