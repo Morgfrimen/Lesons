@@ -12,10 +12,10 @@ namespace ConsoleApp1
 			long tast1 = -1;
 			string ret = "hi";
 
-			int a = 2;
-			int b = 3;
-			int resultSum = a + b;
-			int resultMinus = a - b;
+			int aA = 22;
+			int b = 300;
+			int resultSum = aA + b;
+			int resultMinus = aA * b;
 
 
 
