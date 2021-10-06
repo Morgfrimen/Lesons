@@ -1,4 +1,5 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
+using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("UnitTest")]
 
@@ -19,8 +20,8 @@ namespace ConsoleApp1
 
 
 
-			System.Console.WriteLine(resultSum);
-			System.Console.WriteLine(resultMinus);
+			Console.WriteLine(resultSum);
+			Console.WriteLine(resultMinus);
 		}
 	}
 }
