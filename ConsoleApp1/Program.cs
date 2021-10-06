@@ -1,33 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.Metrics;
-using System.Linq;
-using System.Runtime.CompilerServices;
-
-using ConsoleApp1.Extension;
+﻿using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("UnitTest")]
 
-namespace ConsoleApp1;
-
-
-
-public class Program
+namespace ConsoleApp1
 {
-	private static void Main(string[] args)
+	public class Program
 	{
-		int value = Convert.ToInt32(Console.ReadLine());
-		Console.WriteLine(value.GetKube(new List<CustomNumber>()));
-	}
-
-	public struct CustomNumber
-	{
-		public double Value { get; set; }
-
-		public static implicit  operator double (CustomNumber customNumber)
+		private static void Main(string[] args)
 		{
-			return customNumber.Value;
+			decimal test = 10;
+			long tast1 = -1;
+			string ret = "hi";
+
+			int a = 2;
+			int b = 3;
+			int resultSum = a + b;
+			int resultMinus = a - b;
+
+
+
+			System.Console.WriteLine(resultSum);
+			System.Console.WriteLine(resultMinus);
 		}
 	}
-
 }
