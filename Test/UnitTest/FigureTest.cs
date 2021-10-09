@@ -20,5 +20,20 @@ namespace UnitTest
 
 			Assert.AreEqual(testResult,actual,1e-3);
 		}
+
+
+
+		[Test]
+		public void Test_Square()
+		{
+			IFigure figure = new Сircle(2);
+
+			double testResult = ((ICircles)figure).Radius * ((ICircles)figure).Radius * Math.PI;
+			double actual = figure.Square();
+
+			Assert.AreEqual(testResult,actual,1e-3);
+		}
+
+
 	}
 }
