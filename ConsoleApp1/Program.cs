@@ -15,6 +15,7 @@ namespace ConsoleApp1
 	{
 		private static List<IBigCar> big = new List<IBigCar>();
 		private static List<ILittleCar> little = new List<ILittleCar>();
+		private static List<ICar> cars = new List<ICar>();
 
 		private static void Main(string[] args)
 		{
@@ -29,6 +30,9 @@ namespace ConsoleApp1
 				{
 					case "exit":
 						return;
+					case "add":
+						cars.AddCar(new BigCar(10,"Тест"))
+						break;
 					default:
 						continue;
 				}
