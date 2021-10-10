@@ -9,38 +9,54 @@ namespace ConsoleApp1
 	{
 		private static void Main(string[] args)
 		{
-			decimal test = 10;
-			long tast1 = -1;
-			string ret = "hi";
-
-			int aA = 22;
-			int b = 300;
-			int resultSum = aA + b;
-			int resultMinus = aA * b;
-			int q1 = 20;
-			int q2 = 10;
-			int q3 = q1 + q2;
-			int q4 = q1 - q2;
-			int q5 = q1 * q2;
-			int q6 = q1 / q2;
-
-			double q7 = 10;
-			double q8 = 6;
-			double q9 = q7 / q8;
-
-			double q10 = 12.0;
-			double q11 = 5.0;
-			double q12 = q10 % q11;
-
 			
 
+			Console.WriteLine("Введи первое число");
+			int q1 =Convert.ToInt32 (Console.ReadLine());
+			Console.WriteLine("введи второе число");
+			int q2 =Convert.ToInt32 (Console.ReadLine());
+
+			if(q1<q2)
+            {
+			Console.WriteLine("первое число меньше чем второе");
+			}
+			else if (q1 > q2)
+			{
+			Console.WriteLine("первое число больше чем второе");
+			}
+			else
+			{
+			Console.WriteLine("оба числа равны");
+			}
+			Console.ReadKey();
 
 
+			Console.WriteLine("введи число");
+			int q3 =Convert.ToInt32 (Console.ReadLine());
 
+			if (q3 > 5 && q3 < 10)
 
+			Console.WriteLine("число больше 5 и меньше 10");
+
+			else
+
+			Console.WriteLine("неизвестное число");
+
+			Console.ReadKey();
 			
 
+			Console.WriteLine("Ввдите число");
+			int q4 = Convert.ToInt32 (Console.ReadLine());
 
+			if (q4 == 5|| q4 == 10)
+
+			Console.WriteLine("число либо равно 5 либо равно 10");
+
+			else
+			
+			Console.WriteLine("неизвестное число");
+
+			Console.ReadKey();
 
 			
 
