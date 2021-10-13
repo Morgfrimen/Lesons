@@ -31,7 +31,7 @@ namespace ConsoleApp1
 					case "exit":
 						return;
 					case "add":
-						cars.AddCar(new BigCar(10,"Тест"))
+						cars.AddCar(new BigCar(10, "Тест"));
 						break;
 					default:
 						continue;
