@@ -56,7 +56,7 @@ namespace ConsoleApp1
 			
 			Console.WriteLine("неизвестное число");
 
-			Console.ReadKey()ж
+			Console.ReadKey();
 
 			
 
